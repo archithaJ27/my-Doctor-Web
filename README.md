@@ -1,22 +1,109 @@
-# Getting Started with Create React App
+Doctor-Web
+A modern multi-page doctor appointment and consultation platform built with React. This project features a home landing page, FAQ, contact, testimonials, wallet, and more, closely matching provided design screenshots.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+Responsive, multi-section landing page
 
-## Available Scripts
+FAQ with accordion (expand/collapse)
 
-In the project directory, you can run:
+Testimonials section
 
-### `npm start`
+Doctor community/forum/benefits highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Download App panel with store badges
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contact form
 
-### `npm test`
+Navigation bar & footer on all pages
 
-Launches the test runner in the interactive watch mode.\
+Uses modern React (react-router-dom, functional components)
+
+Clean inline and CSS-based styling matching Figma/screenshots
+
+🛠️ Project Requirements
+Tech Stack:
+
+Node.js & npm (version ≥ 14 recommended)
+
+React 18+
+
+react-router-dom
+
+All assets/images placed in src/assets/
+
+No backend required (frontend-only)
+
+Project Structure:
+
+text
+src/
+  assets/                # All images and icons (logo, hero images, etc.)
+  components/            # All reusable sections (Navbar, Footer, FAQSection, etc.)
+  pages/                 # Main pages: HomePage, FAQPage, ContactPage, etc.
+  App.js
+  App.css
+  index.js
+Required Assets:
+
+logo.png, hero.png, hero-group.png, etc. in /src/assets/
+
+Use placeholders if real images not available
+
+📦 Setup Instructions
+1. Clone the Repository
+text
+git clone https://github.com/archithaJ27/Doctor-Web.git
+cd Doctor-Web
+2. Install Dependencies
+text
+npm install
+3. Run the App Locally
+text
+npm start
+Visit http://localhost:3000 to see the site.
+
+4. Build for Production
+text
+npm run build
+5. (Optional) Push Changes to GitHub
+text
+git add .
+git commit -m "Your message"
+git push
+🖼️ Customizing/Updating Assets
+Place all image files in src/assets/
+
+Import and use them in components as:
+
+jsx
+import heroImg from "../assets/hero.png";
+<img src={heroImg} alt="Hero" />
+Update sections (HomePage, FAQPage, etc.) as per your content needs.
+
+🔗 Useful Links
+GitHub Repo: https://github.com/archithaJ27/Doctor-Web
+
+Demo (if deployed): Add your deployed link here
+
+Sample Video Tutorial: Doctor Appointment Website in ReactJS (YouTube)
+
+📄 Project Navigation
+Home page: /
+
+FAQ page: /faq
+
+Contact page: /contact
+
+All navigation available in the Navbar
+
+💬 Support
+Have issues or want to contribute?
+
+Open an Issue or Pull Request in the repo.
+
+Email: support@amrutam.global
+
+Feel free to customize or expand this README as per your exact pages, assets, or team details!
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
