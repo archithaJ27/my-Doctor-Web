@@ -47,5 +47,45 @@ This project is a full-stack healthcare-focused e-commerce website developed usi
 
 ---
 
+Install Dependencies
+# npm install
+Start the React Development Server
+# npm start
+-------------------
+
 ## 📁 Folder Structure
+doctor-web/
+└── src/
+    ├── assets/                 # All images, icons, logos, mockups here
+    │    ├── hero.png
+    │    ├── hero-group.png
+    │    ├── logo.png
+    │    ├── app-mockup.png
+    │    └── ...other images…
+    │
+    ├── components/             # Reusable React UI components (sections, common UI parts)
+    │    ├── Navbar.js
+    │    ├── Footer.js
+    │    ├── HeroSection.js
+    │    ├── FeaturedSection.js
+    │    ├── WhyChooseUs.js
+    │    ├── ForumSection.js
+    │    ├── SmartWalletSection.js
+    │    ├── HowItWorks.js
+    │    ├── Testimonials.js
+    │    ├── FAQSection.js
+    │    ├── DownloadAppSection.js
+    │    ├── ContactForm.js
+    │    └── ...add other small UI components as needed
+    │
+    ├── pages/                  # Main application pages rendered by routes
+    │    ├── HomePage.js
+    │    ├── FAQPage.js
+    │    ├── ContactPage.js
+    │    └── ...additional pages if any
+    │
+    ├── App.js                  # Main app with routing (React Router)
+    ├── index.js                # Entry point for React
+    └── App.css                 # Global styles and layout CSS
+
 
